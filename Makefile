@@ -4,5 +4,5 @@ CFLAGS = -Wall -Werror -ansi -pedantic
 
 all: rshell.o
 
-rshell.o: main.cpp
-	$(CC) $(CFLAGS) main.cpp -o rshell
+rshell.o: src/main.cpp
+	$(CC) $(CFLAGS) src/main.cpp -o rshell
