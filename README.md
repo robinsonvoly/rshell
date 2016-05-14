@@ -1,3 +1,2 @@
 <h1>CS100 Assignment 2<h1>
-
-<h4>Rshell<h4>
+<p> Rshell is a program designed to imitate the bash of many command lines. It allows for the access and use of many different bash commands <p>
