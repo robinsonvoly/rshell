@@ -23,3 +23,7 @@ All test files have been placed in the tests folder. Each test case has several 
 
 ####Bugs:
 - There is a bug with the execution of the || and && connectors in which or's are sometimes prioritized before any and connectors.
+
+####Authors:
+Robinson Vo-Ly (rvoly001)
+Sam Vongsay (svong001)
