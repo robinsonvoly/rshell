@@ -18,3 +18,11 @@ rm test -r#-i
 echo "Testing command with a comment in middle of command"
 echo hello# echo no this will not output after a hashtag
 echo yes || echo no #etc
+
+echo "Testing command with comment in beginning"
+#this is a comment echo hello world
+
+echo "Testing command with parentheses and comment"
+(echo a || echo b || echo c) && echo d # comment comment
+#comment comment (echo no)
+(echo no)#this is a comment
