@@ -20,3 +20,7 @@ exit
 
 echo no; echo yea; echo this;
 exit
+
+echo "Testing exit with parentheses"
+(echo a || echo b)
+exit
