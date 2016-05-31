@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Commands with preceding exit
 echo "Testing exit"
 exit
