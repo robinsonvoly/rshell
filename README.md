@@ -5,7 +5,7 @@ Rshell is a program designed to imitate the bash of many command lines. It allow
 ```
 and can be separated by three connectors ( &&, ||, ;). 
 
-######hw3 Version Addition:
+#####hw3 Version Addition:
 Additionally, there has been added functionality over the previous hw2 version so that the command line is now able to run test commands such as:
 ```
    $ test -e test/file/path
@@ -28,7 +28,7 @@ Precedence Operators have been added as well with "()" parentheses. Such as:
    $ (echo A && echo B) || (echo C && echo D)
 ```
 
-######hw4 Version Addition:
+#####hw4 Version Addition:
 Added functionality includes input redirection "<", output redirection ">" and ">>", as well as piping "|". Implemented utilizing Unix functiond dup and pipe.
 
 Example usage:
@@ -36,7 +36,9 @@ Example usage:
    $ cat < existingInputFile | tr A-Z a-z | tee newOutputFile1 | tr a-z A-Z > newOutputFile2
 ```
 
-####Installation:
+More usage can be found [here](http://www.tldp.org/LDP/abs/html/io-redirection.html#FTN.AEN17884 "I/O Redirection").
+
+###Installation:
 ```
    $ git clone https://github.com/rvoly001/rshell.git
    $ cd rshell
@@ -45,16 +47,16 @@ Example usage:
    $ bin/rshell
 ```
 
-####Test Cases:
+###Test Cases:
 All test files have been placed in the tests folder. Each test case has several different commands that were tested to see functionality of the program.
 - pipe_test.sh
 - input_redirection.sh
 - output_redirection.sh
 - exit.sh
 
-####Bugs:
+###Bugs:
 - Known issues with parentheses precedence within existing parentheses.
 - "test" commands may have issues with symbolic version.
 
-####Authors:
+###Authors:
 Robinson Vo-Ly (rvoly001)
