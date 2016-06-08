@@ -5,7 +5,7 @@ Rshell is a program designed to imitate the bash of many command lines. It allow
 ```
 and can be separated by three connectors ( &&, ||, ;). 
 
-#####hw3 Version Addition:
+######hw3 Version Addition:
 Additionally, there has been added functionality over the previous hw2 version so that the command line is now able to run test commands such as:
 ```
    $ test -e test/file/path
@@ -28,7 +28,7 @@ Precedence Operators have been added as well with "()" parentheses. Such as:
    $ (echo A && echo B) || (echo C && echo D)
 ```
 
-#####hw4 Version Addition:
+######hw4 Version Addition:
 Added functionality includes input redirection "<", output redirection ">" and ">>", as well as piping "|". Implemented utilizing Unix functiond dup and pipe.
 
 Example usage:
