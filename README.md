@@ -40,7 +40,7 @@ Example usage:
 ```
    $ git clone https://github.com/rvoly001/rshell.git
    $ cd rshell
-   $ git checkout hw3
+   $ git checkout hw4
    $ make
    $ bin/rshell
 ```
