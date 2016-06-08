@@ -47,13 +47,14 @@ Example usage:
 
 ####Test Cases:
 All test files have been placed in the tests folder. Each test case has several different commands that were tested to see functionality of the program.
-- test_test.sh
-- precedence_test.sh
-- commented_command.sh
+- pipe_test.sh
+- input_redirection.sh
+- output_redirection.sh
 - exit.sh
 
 ####Bugs:
-- There is a bug with the execution of the || and && connectors in which or's are sometimes prioritized before any and connectors.
+- Known issues with parentheses precedence within existing parentheses.
+- "test" commands may have issues with symbolic version.
 
 ####Authors:
 Robinson Vo-Ly (rvoly001)
