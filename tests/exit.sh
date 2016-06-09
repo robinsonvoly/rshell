@@ -24,3 +24,9 @@ exit
 echo "Testing exit with parentheses"
 (echo a || echo b)
 exit
+
+echo "Testing exit with redirection"
+echo a > out.txt
+cat < out.txt > new.txt
+echo b >> new.txt
+exit
